@@ -21,7 +21,7 @@ Idea:
 Se basa en la propiedad de MCD(a, b) = MCD(b, a mod b).
 El residuo siempre es menor que b por lo que en cada iteración el problema se hace más pequeño hasta llegar a 0.
 
-Interacio:
+Interaciones:
 En cada paso del while, el valor de a toma el valor anterior de b, y b toma el residuo de la división a mod b. 
 Como el residuo siempre es estrictamente menor que b, los valores van disminuyendo paso a paso. 
 Por ejemplo para MCD(48, 18): en la primera iteración se obtiene residuo 12, en la segunda residuo 6, 
