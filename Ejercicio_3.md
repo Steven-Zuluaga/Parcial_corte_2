@@ -15,6 +15,6 @@ lista = []
 for i in numeros:
     lista.append(int(i))
 
-print('Lista original:', lista)
-print('Lista ordenada:', ordenar_burbuja(lista))
+print(f'Lista original:, {lista}')
+print(f'Lista ordenada:, {ordenar_burbuja(lista)}')
 ```
