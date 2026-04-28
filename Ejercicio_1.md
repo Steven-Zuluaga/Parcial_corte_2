@@ -1,4 +1,4 @@
-# Algoritmo de euclides
+# Algoritmo de Euclides
 ```python
 def mcd(a, b):
 
@@ -18,17 +18,17 @@ else:
     print(f'MCD({a}, {b}) = {resultado}')
 ```
 
--Idea:
+- Idea:
 Se basa en la propiedad de MCD(a, b) = MCD(b, a mod b).
 El residuo siempre es menor que b por lo que en cada iteración el problema se hace más pequeño hasta llegar a 0.
 
--Interaciones:
+- Interaciones:
 En cada paso del while, el valor de a toma el valor anterior de b, y b toma el residuo de la división a mod b. 
 Como el residuo siempre es estrictamente menor que b, los valores van disminuyendo paso a paso. 
 Por ejemplo para MCD(48, 18): en la primera iteración se obtiene residuo 12, en la segunda residuo 6, 
 y en la tercera residuo 0, momento en que el algoritmo retorna 6 como resultado.
 
--Porque termina:
+- Porque termina:
 El algoritmo termina porque la secuencia de residuos va disminuyendo y siempre es mayor o igual a cero. 
 Al estar limitada a ser inferior a cero e ir disminuyendo, inevitablemente llega a cero en un número finito de pasos. 
 Cuando b vale 0, el valor acumulado en a es el MCD y se retorna.
