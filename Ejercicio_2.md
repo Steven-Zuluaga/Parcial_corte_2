@@ -31,3 +31,10 @@ else:
     print(f'math.exp({x})= {exacto:.2f}')
     print(f'Comparacion: {aproximacion == exacto}')
 ```
+
+- Cada termino: cada término tiene la forma xᵏ/k!, donde k es la posición en la serie. El numerador es x elevado a esa posición y el denominador es el factorial de la misma. A medida que k crece, el factorial hace que el término se vuelva tan pequeño que ya casi no aporta nada a la suma.
+  
+- Como influye n en la precisión: con pocos términos la aproximación es mucha, pero cada término que se agrega reduce el error.
+
+
+
