@@ -1,3 +1,5 @@
+# Algoritmo de Polinimio de Taylor
+```python
 import math
 
 def exp_taylor(x, n):
@@ -28,3 +30,4 @@ else:
     print(f"e^{x} con {n} términos = {aproximacion:.2f}")
     print(f'math.exp({x})= {exacto:.2f}')
     print(f'Comparacion: {aproximacion == exacto}')
+```
