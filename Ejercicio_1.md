@@ -18,7 +18,6 @@ else:
     print(f'MCD({a}, {b}) = {resultado}')
 ```
 
-'''
 Idea:
 Se basa en la propiedad de MCD(a, b) = MCD(b, a mod b).
 El residuo siempre es menor que b por lo que en cada iteración el problema se hace más pequeño hasta llegar a 0.
@@ -34,7 +33,7 @@ El algoritmo termina porque la secuencia de residuos va disminuyendo y siempre e
 Al estar limitada a ser inferior a cero e ir disminuyendo, inevitablemente llega a cero en un número finito de pasos. 
 Cuando b vale 0, el valor acumulado en a es el MCD y se retorna.
 
-'''
+
 #Algoritmo metodo de ingenuo
 ```python
 def mcd_ingenuo(a, b):
