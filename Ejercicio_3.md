@@ -1,4 +1,4 @@
-#Ordenamiento burbuja
+# Ordenamiento burbuja
 ```python
 def ordenar_burbuja(lista):
     n = len(lista)
