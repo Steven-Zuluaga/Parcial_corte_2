@@ -46,6 +46,6 @@ if not (a <= 0 or b <= 0):
     r1 = mcd_ingenuo(a, b)
     r2 = mcd(a, b)
 
-    print(f"Método ingenuo:   MCD({a}, {b}) = {r1}")
-    print(f"Método Euclides:  MCD({a}, {b}) = {r2}")
-    print(f"Cpmparacion:  {r1 == r2}")
+    print(f'Ingenuo:   MCD({a}, {b}) = {r1}')
+    print(f'Euclides:  MCD({a}, {b}) = {r2}')
+    print(f'COmparacion:  {r1 == r2}')
