@@ -1,4 +1,5 @@
 #Algoritmo de euclides
+```python
 def mcd(a, b):
 
     while b != 0:
@@ -15,6 +16,7 @@ if a <= 0 or b <= 0:
 else:
     resultado = mcd(a, b)
     print(f'MCD({a}, {b}) = {resultado}')
+```
 
 '''
 Idea:
@@ -34,6 +36,7 @@ Cuando b vale 0, el valor acumulado en a es el MCD y se retorna.
 
 '''
 #Algoritmo metodo de ingenuo
+```python
 def mcd_ingenuo(a, b):
 
     n_encontrado = 1
@@ -48,4 +51,5 @@ if not (a <= 0 or b <= 0):
 
     print(f'Ingenuo:   MCD({a}, {b}) = {r1}')
     print(f'Euclides:  MCD({a}, {b}) = {r2}')
-    print(f'COmparacion:  {r1 == r2}')
+    print(f'COmparacion:  {r1 == r2
+```
