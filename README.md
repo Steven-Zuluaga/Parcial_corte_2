@@ -1,1 +1,1 @@
-# Ejercicios del parcial segundo corte
+# Ejercicios del parcial (segundo corte)
